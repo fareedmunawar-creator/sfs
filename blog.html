@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - The School of Future Scientists, Quetta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+    <meta name="description" content="Stay updated with the latest news, events, and insights from The School of Future Scientists, Quetta. Explore our blog for educational articles, student achievements, and school activities.">
+    <meta name="keywords" content="SFS Blog, school news Quetta, educational articles, student achievements, school events, science education blog, Best School in Quetta, Science School in Quetta, Top Education in Quetta">
+    <meta name="author" content="The School of Future Scientists">
+    <meta property="og:title" content="Blog - The School of Future Scientists, Quetta">
+    <meta property="og:description" content="Stay updated with the latest news, events, and insights from The School of Future Scientists, Quetta. Explore our blog for educational articles, student achievements, and school activities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.sfs.edu.pk/blog.html">
+    <meta property="og:image" content="http://www.sfs.edu.pk/images/sfs-logo.png">
+    <style>
+        .blog-post-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .blog-post-card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+        }
+        .blog-post-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+        }
+        .blog-post-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+        .blog-post-content {
+            padding: 25px;
+        }
+        .blog-post-content h3 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+        }
+        .blog-post-content p {
+            font-size: 1rem;
+            color: var(--neutral-gray);
+            margin-bottom: 20px;
+        }
+        .blog-post-card .read-more {
+            display: inline-block;
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .blog-post-card .read-more:hover {
+            color: var(--dark-blue);
+        }
+        .blog-meta {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader" role="status" aria-label="Loading">
+        <div class="preloader-content">
+            <div class="preloader-orbit"><div class="preloader-particle"></div></div>
+            <div class="preloader-orbit"><div class="preloader-particle"></div></div>
+            <div class="preloader-orbit"><div class="preloader-particle"></div></div>
+            <div class="preloader-logo">SFS</div>
+        </div>
+        <div class="preloader-text">Loading</div>
+        <div class="preloader-progress"><div class="preloader-progress-bar"></div></div>
+    </div>
+
+    <a href="#blog-hero" class="skip-link" aria-label="Skip to main content">Skip to main content</a>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="logo" role="banner" aria-label="The School of Future Scientists - SFS">SFS</div>
+            <div class="hamburger" role="button" aria-label="Toggle navigation menu" aria-expanded="false" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul role="menubar">
+                <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                <li role="none"><a href="about.html" role="menuitem">About Us</a></li>
+                <li role="none"><a href="academics.html" role="menuitem">Academics</a></li>
+                <li role="none"><a href="admissions.html" role="menuitem">Admissions</a></li>
+                <li role="none"><a href="facilities.html" role="menuitem">Facilities</a></li>
+                <li role="none"><a href="gallery.html" role="menuitem">Gallery</a></li>
+                <li role="none"><a href="blog.html" class="active" role="menuitem" aria-current="page">Blog</a></li>
+                <li role="none"><a href="contact.html" role="menuitem">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog-hero" class="hero small-hero">
+            <div class="hero-content animate-on-scroll">
+                <h1>Our Insights & Updates</h1>
+            </div>
+        </section>
+
+        <section id="blog-posts" class="section-padding animate-on-scroll">
+            <div class="container">
+                <h2>Latest Articles from SFS</h2>
+                <p>Stay informed with our latest news, educational insights, student achievements, and events. Our blog is a resource for parents, students, and the community to learn more about our vibrant school life.</p>
+
+                <div class="blog-post-grid">
+                    <div class="blog-post-card animate-on-scroll">
+                        <img src="https://via.placeholder.com/400x220/0091f6/ffffff?text=Hands-On+Science" alt="Students conducting experiments in science lab">
+                        <div class="blog-post-content">
+                            <div class="blog-meta">October 26, 2026 | Academics</div>
+                            <h3>The Importance of Hands-On Science Education</h3>
+                            <p>Discover how practical experiments at SFS foster a deeper understanding and love for science in our students.</p>
+                            <a href="blog/post1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-post-card animate-on-scroll">
+                        <img src="https://via.placeholder.com/400x220/084b9a/ffffff?text=Science+Fair" alt="Students presenting projects at science fair">
+                        <div class="blog-post-content">
+                            <div class="blog-meta">October 20, 2026 | Events</div>
+                            <h3>Highlights from Our Annual Science Fair</h3>
+                            <p>A recap of the innovative projects and exciting discoveries presented by our talented students.</p>
+                            <a href="blog/post2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-post-card animate-on-scroll">
+                        <img src="https://via.placeholder.com/400x220/107dc2/ffffff?text=Robotics+Winner" alt="Student holding robotics competition award">
+                        <div class="blog-post-content">
+                            <div class="blog-meta">October 15, 2026 | Student Life</div>
+                            <h3>SFS Student Wins National Robotics Competition</h3>
+                            <p>Celebrating the remarkable achievement of one of our bright students in a prestigious national competition.</p>
+                            <a href="blog/post3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>SFS</h3>
+                <p>Shaping Future Scientists for Tomorrow. Providing top-tier science education in Quetta.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <p><a href="tel:+923218055764">+92 321 8055764</a></p>
+                <p><a href="mailto:futurescientistsquetta@gmail.com">futurescientistsquetta@gmail.com</a></p>
+                <p>Sheraz Abad 1, Arbab Karam Khan, Quetta, Pakistan</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 The School of Future Scientists, Quetta. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
